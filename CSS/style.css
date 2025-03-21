@@ -1,0 +1,40 @@
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+p, ul {
+    font-size: 1.1rem;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+nav {
+    background-color: #007bff;
+  }
+nav .nav-link {
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 20px;
+  }
+nav .nav-link:hover {
+    background-color: skyblue; 
+    transform: scale(1.1); 
+  }
+.datos-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    color:black;
+    gap: 20px;
+}
+.imagen {
+  width: 350px; 
+  border-radius: 10px;
+}
